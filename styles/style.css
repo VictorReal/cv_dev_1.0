@@ -56,6 +56,35 @@ main {
 ul {
     list-style-type:circle;
 }
+@media (max-width: 412px) {
+    .body{
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;  
+        justify-content:flex-start;   
+    }
+    .skills {
+        display: flex;
+        flex-direction: column;
+    }
+    #full_name {
+        font-size: 25px;
+    }
+    .sidebar {
+        min-width: 40vw;
+        margin-left: 10px;       
+    }
+    #avatar {
+        align-items: center;
+    }
+    .sidebar_info{
+        font-size: 12px;
+    }
+   .main{
+        margin-right: 10px;
+   }
+}
+
 /*
    
 }
