@@ -5,7 +5,6 @@ body {
     background-color: #333a4c;
     display: flex;
     justify-content: center;
-    gap: 1rem;
 }
 /*first column*/
 figure{
@@ -18,8 +17,9 @@ figure{
 }
 .sidebar {
     color: whitesmoke;
-    padding: 30px 3px;
+    padding: 30px 0px;
     min-width: 18vw;
+    padding-right: 10px;
     
 }
 .sidebar_headline {
