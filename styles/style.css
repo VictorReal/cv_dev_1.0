@@ -104,4 +104,8 @@ ul {
    .main{
         margin-right: 10px;
    }
+   ul{
+        font-size: 15px;
+        padding-left: 20px;
+   }
 }
