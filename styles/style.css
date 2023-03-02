@@ -33,8 +33,7 @@ figure{
     border: whitesmoke 1px solid;
     border-radius: 5px;
     background-color: #525767;
-    color: whitesmoke; 
-    margin-left: 5px;
+    color: whitesmoke;
 }
 #copyButton:hover{
     background-color: whitesmoke;
@@ -60,6 +59,11 @@ main {
     font-size: 50px;
     text-transform: uppercase;
 }
+#main_info{
+    font-size: 14px;
+    padding: 12px 1px;
+
+}
 .skills {
     display: flex;
     flex-direction: row;
@@ -73,13 +77,13 @@ main {
 ul {
     list-style-type:circle;
 }
-@media (max-width: 900px) {
+@media (max-width: 950px) {
     figure{ 
         width: 150px;
     } 
 
 }
-@media (max-width: 750px) {
+@media (max-width: 850px) {
     body{
         min-height: 100vh;
     }
