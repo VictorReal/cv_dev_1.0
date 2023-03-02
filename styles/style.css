@@ -80,8 +80,8 @@ ul {
 
 }
 @media (max-width: 750px) {
-    .body{
-        font-size: 10px;
+    body{
+        min-height: 100vh;
     }
     .skills {
         display: flex;
