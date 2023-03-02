@@ -2,9 +2,8 @@ body {
     max-width: 960px;  
     font-size: 16px;
     font-family: arial,sans-serif;
-    background-color: rgb(51, 58, 76);
+    background-color: #333a4c;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     gap: 1rem;
 }
@@ -40,19 +39,11 @@ figure{
 #copyButton:hover{
     background-color: whitesmoke;
     color: #525767;
+    cursor: pointer;
 }
 .linkedLink{
     color: whitesmoke;
-
 }
-.linkedLink:visited{
-
-}
-
-
-
-
-
 .education_info {
     font-size: 12px; 
     margin-left: 1vw;
@@ -82,17 +73,19 @@ main {
 ul {
     list-style-type:circle;
 }
+@media (max-width: 900px) {
+    figure{ 
+        width: 150px;
+    } 
+
+}
 @media (max-width: 750px) {
     .body{
         font-size: 10px;
-        display: flex;
-        flex-direction: column;  
-        justify-content:flex-start;   
     }
     .skills {
         display: flex;
         flex-direction: column;
-
     }
     #full_name {
         font-size: 25px;
@@ -100,9 +93,6 @@ ul {
     .sidebar {
         min-width: 40vw;
         margin-left: 10px;       
-    }
-    #avatar {
-        align-items: center;
     }
     .sidebar_info{
         font-size: 12px;
