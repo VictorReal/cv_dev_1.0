@@ -29,16 +29,10 @@ figure{
 .sidebar_info{
     font-size: 14px;
 }
-#copyButton{
-    border: whitesmoke 1px solid;
-    border-radius: 5px;
-    background-color: #525767;
-    color: whitesmoke;
-    margin-left: 2px;
+#myText{
+    text-decoration: underline;
 }
-#copyButton:hover{
-    background-color: whitesmoke;
-    color: #525767;
+#myText:hover{
     cursor: pointer;
 }
 .linkedLink{
