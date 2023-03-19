@@ -42,7 +42,7 @@ figure{
     font-size: 12px; 
     margin-left: 1vw;
 }
-#certLink, #certLink:visited {
+#certLink, #certLink:visited, #certLink:hover {
     color: whitesmoke;
 }
 /*second column*/
