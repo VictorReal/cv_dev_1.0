@@ -104,3 +104,39 @@ ul {
         padding-left: 20px;
    }
 }
+@media (min-width: 1200px) {
+    body{
+        font-size: 60px;
+        max-height: 100vh;
+    }
+    .skills {
+        display: flex;
+        flex-direction: column;
+    }
+    #full_name {
+        font-size: 100px;
+    }
+    .sidebar {
+        max-width: 50vw;
+        margin-left: 10px;       
+    }
+    .sidebar_info, #main_info{
+        font-size: 42px;
+    }
+    .education_info {
+        font-size: 36px;
+    }
+   .main{
+        margin-right: 10px;
+   }
+   ul{
+        font-size: 46px;
+        padding-left: 20px;
+   }
+   figure{ 
+        width: 600px;
+    } 
+    #avatar{
+        width: 500px;
+    }   
+}
